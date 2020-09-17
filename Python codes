@@ -1,0 +1,6 @@
+overwrite the existing list:
+numbs = [5, 10, 15, 20, 25]
+for i in numbs:
+    numbs.append(i+5)
+    numbs.remove(i)
+print(numbs)
